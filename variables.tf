@@ -22,6 +22,7 @@ variable "environment" {
 
 variable "ssh_key" { }
 variable "user" { }
+variable "credentials" { }
 
 ## GCP Engine variables
 variable "network_name" {
